@@ -253,4 +253,5 @@ if (isset($_GET['month']) && isset($_GET['chcName'])) {
         }
     </script>
 </body>
+
 </html>
