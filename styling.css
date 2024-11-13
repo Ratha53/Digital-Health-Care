@@ -1,0 +1,211 @@
+body {
+    background-color: #e0e1e2; /* Light blue for a calming health-related vibe */
+    color: #00695c; /* Dark teal text */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px; /* Reduced padding */
+}
+
+a {
+    text-decoration: none; /* Remove underline from hyperlinks */
+}
+
+h1 {
+    color: #008080; /* Teal for a professional medical feel */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555; /* Soft grey for a subtle look */
+    font-size: 24px;
+}
+
+/* Table Styling */
+table {
+    width: 80%; /* Table width */
+    margin: 20px auto; /* Center the table */
+    background-color: #ffffff; /* White background for the table */
+    color: #333; /* Dark text */
+    border-collapse: collapse; /* Merge table borders */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+th, td {
+    padding: 15px; /* Consistent padding for cells */
+    border: 1px solid #ddd; /* Light border for table cells */
+    text-align: center; /* Center text */
+}
+
+th {
+    background-color: #00897b; /* Teal background for header */
+    color: white; /* White text for header */
+    font-size: 18px;
+}
+
+td {
+    background-color: #e0f7fa; /* Very light teal for rows */
+    font-size: 16px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7; /* Alternating row color */
+}
+
+tr:hover {
+    background-color: #e0f2f1; /* Lighter teal on hover */
+}
+
+/* Form Styling */
+.form-container {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+label {
+    margin: 5px 0;
+    display: block;
+    color: #00796b; /* Teal color for labels */
+    font-weight: bold;
+}
+
+select, input[type="text"], input[type="tel"], input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded edges */
+    background-color: #f5f5f5; /* Light background for inputs */
+    color: #333;
+    font-size: 14px;
+}
+
+/* Button Styling */
+button, input[type="button"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto 8px; /* Adjusting margin to center the button */
+    display: block; /* Ensures the button takes up full width and centers */
+    text-align: center; /* Centers the button text */
+}
+
+button:hover, input[type="button"]:hover {
+    background-color: #00695c; /* Darker teal on hover */
+}
+
+input.create {
+    background-color: #4CAF50; /* Green button for create */
+    color: white;
+}
+
+input.create:hover {
+    background-color: #024605; /* Darker green on hover */
+}
+
+input.delete {
+    background-color: #f44336; /* Red button for delete */
+    color: white;
+}
+
+input.delete:hover {
+    background-color: #890303; /* Darker red on hover */
+}
+
+/* Scanning Section */
+.scan {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.scan h3 {
+    margin-top: 8px;
+    color: #109099; /* Teal color for the text */
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    transform: scale(1.5); /* Make checkboxes more prominent */
+}
+
+/* Marquee */
+marquee {
+    color: #004d40; /* Darker teal for scrolling text */
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* Info Section */
+.info {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #00796b; /* Teal shade for date and timing info */
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center buttons horizontally and vertically */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.button-container div {
+    margin: 0 10px;
+}
+
+/* Auth Warning */
+.auth-warning {
+    color: red; /* Red color for the warning */
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+/* Delete Button Styling */
+.delete-btn {
+    background-color: #e75f55; /* Red background for delete buttons */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    /* padding: 10px 20px; Button padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size for delete button */
+    width:53px;
+}
+
+.delete-btn:hover {
+    background-color: #640404; /* Darker red on hover */
+}
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination button {
+    padding: 10px;
+    margin: 2px;
+}
+
+.slideshow {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+  }
